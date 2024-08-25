@@ -9,9 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@apollo/client": "^3.11.4",
     "@primevue/themes": "^4.0.5",
-    "graphql": "^16.9.0",
     "primevue": "^4.0.5",
     "vue": "^3.4.37",
     "vuex": "^4.0.2"
