@@ -1,0 +1,50 @@
+node_modules
+
+# Arquivos e pastas gerados durante o build
+bin/
+obj/
+out/
+
+# Arquivos de configuração de usuário e IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Arquivos de pacote e dependências
+*.nupkg
+*.snupkg
+*.dll
+*.exe
+*.pdb
+
+# Arquivos de cache do ASP.NET
+*.db
+*.sqlite
+*.bak
+
+# Arquivos de configuração local
+*.local
+appsettings.*.json
+.env
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+
+# Ignorar o diretório de pacotes NuGet
+.nuget/
+
+# Ignore arquivos específicos de ferramentas de build
+*.csproj.user
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+*.suo
+*.user
+*.userosscache
+*.sln
+*.sln.docstates
+*.sln.dotsettings
+*.nupkg
