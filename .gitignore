@@ -44,7 +44,6 @@ appsettings.*.json
 *.suo
 *.user
 *.userosscache
-*.sln
 *.sln.docstates
 *.sln.dotsettings
 *.nupkg
