@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/WineProject.API.props" />
+</Project>
