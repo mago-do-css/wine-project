@@ -1,0 +1,216 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "\\\\wsl.localhost\\Ubuntu\\home\\iago\\projetos\\wine-project\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D7E8BD12-B96F-4DE7-A908-CC1527EB6011}|WineProject.API\\WineProject.API.csproj|\\\\wsl.localhost\\ubuntu\\home\\iago\\projetos\\wine-project\\backend\\wineproject.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7E8BD12-B96F-4DE7-A908-CC1527EB6011}|WineProject.API\\WineProject.API.csproj|\\\\wsl.localhost\\ubuntu\\home\\iago\\projetos\\wine-project\\backend\\wineproject.api\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B99B1A5A-393D-4FA8-92B0-2F29C93567D4}|01-WineProject.Business\\01-WineProject.Business.csproj|\\\\wsl.localhost\\ubuntu\\home\\iago\\projetos\\wine-project\\backend\\01-wineproject.business\\mappings\\produtomapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E86B06C-B670-4177-BE2E-CB0AE359CA36}|03-WineProject.Domain\\03-WineProject.Domain.csproj|\\\\wsl.localhost\\ubuntu\\home\\iago\\projetos\\wine-project\\backend\\03-wineproject.domain\\entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C2C16A-C025-4C03-9E51-1AC116B59C6A}|02-WineProject.Data\\02-WineProject.Data.csproj|\\\\wsl.localhost\\ubuntu\\home\\iago\\projetos\\wine-project\\backend\\02-wineproject.data\\context\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C2C16A-C025-4C03-9E51-1AC116B59C6A}|02-WineProject.Data\\02-WineProject.Data.csproj|\\\\wsl.localhost\\ubuntu\\home\\iago\\projetos\\wine-project\\backend\\02-wineproject.data\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B99B1A5A-393D-4FA8-92B0-2F29C93567D4}|01-WineProject.Business\\01-WineProject.Business.csproj|\\\\wsl.localhost\\ubuntu\\home\\iago\\projetos\\wine-project\\backend\\01-wineproject.business\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B99B1A5A-393D-4FA8-92B0-2F29C93567D4}|01-WineProject.Business\\01-WineProject.Business.csproj|\\\\wsl.localhost\\ubuntu\\home\\iago\\projetos\\wine-project\\backend\\01-wineproject.business\\interfaces\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B99B1A5A-393D-4FA8-92B0-2F29C93567D4}|01-WineProject.Business\\01-WineProject.Business.csproj|\\\\wsl.localhost\\ubuntu\\home\\iago\\projetos\\wine-project\\backend\\01-wineproject.business\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7E8BD12-B96F-4DE7-A908-CC1527EB6011}|WineProject.API\\WineProject.API.csproj|\\\\wsl.localhost\\ubuntu\\home\\iago\\projetos\\wine-project\\backend\\wineproject.api\\mutations\\produtomutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7E8BD12-B96F-4DE7-A908-CC1527EB6011}|WineProject.API\\WineProject.API.csproj|\\\\wsl.localhost\\ubuntu\\home\\iago\\projetos\\wine-project\\backend\\wineproject.api\\schema\\produtoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7E8BD12-B96F-4DE7-A908-CC1527EB6011}|WineProject.API\\WineProject.API.csproj|\\\\wsl.localhost\\ubuntu\\home\\iago\\projetos\\wine-project\\backend\\wineproject.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "libman.json",
+              "DocumentMoniker": "\\\\wsl.localhost\\Ubuntu\\home\\iago\\projetos\\wine-project\\backend\\WineProject.API\\libman.json",
+              "RelativeDocumentMoniker": "WineProject.API\\libman.json",
+              "ToolTip": "\\\\wsl.localhost\\Ubuntu\\home\\iago\\projetos\\wine-project\\backend\\WineProject.API\\libman.json",
+              "RelativeToolTip": "WineProject.API\\libman.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-27T02:48:34.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "\\\\wsl.localhost\\Ubuntu\\home\\iago\\projetos\\wine-project\\backend\\02-WineProject.Data\\Context\\DbContext.cs",
+              "RelativeDocumentMoniker": "02-WineProject.Data\\Context\\DbContext.cs",
+              "ToolTip": "\\\\wsl.localhost\\Ubuntu\\home\\iago\\projetos\\wine-project\\backend\\02-WineProject.Data\\Context\\DbContext.cs",
+              "RelativeToolTip": "02-WineProject.Data\\Context\\DbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T02:21:00.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "\\\\wsl.localhost\\Ubuntu\\home\\iago\\projetos\\wine-project\\backend\\03-WineProject.Domain\\Entities\\Produto.cs",
+              "RelativeDocumentMoniker": "03-WineProject.Domain\\Entities\\Produto.cs",
+              "ToolTip": "\\\\wsl.localhost\\Ubuntu\\home\\iago\\projetos\\wine-project\\backend\\03-WineProject.Domain\\Entities\\Produto.cs",
+              "RelativeToolTip": "03-WineProject.Domain\\Entities\\Produto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T02:20:40.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "\\\\wsl.localhost\\Ubuntu\\home\\iago\\projetos\\wine-project\\backend\\01-WineProject.Business\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "01-WineProject.Business\\Interfaces\\IRepository.cs",
+              "ToolTip": "\\\\wsl.localhost\\Ubuntu\\home\\iago\\projetos\\wine-project\\backend\\01-WineProject.Business\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "01-WineProject.Business\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T02:09:24.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProdutoRepository.cs",
+              "DocumentMoniker": "\\\\wsl.localhost\\Ubuntu\\home\\iago\\projetos\\wine-project\\backend\\02-WineProject.Data\\Repositories\\ProdutoRepository.cs",
+              "RelativeDocumentMoniker": "02-WineProject.Data\\Repositories\\ProdutoRepository.cs",
+              "ToolTip": "\\\\wsl.localhost\\Ubuntu\\home\\iago\\projetos\\wine-project\\backend\\02-WineProject.Data\\Repositories\\ProdutoRepository.cs",
+              "RelativeToolTip": "02-WineProject.Data\\Repositories\\ProdutoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T02:04:26.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProdutoService.cs",
+              "DocumentMoniker": "\\\\wsl.localhost\\Ubuntu\\home\\iago\\projetos\\wine-project\\backend\\01-WineProject.Business\\Services\\ProdutoService.cs",
+              "RelativeDocumentMoniker": "01-WineProject.Business\\Services\\ProdutoService.cs",
+              "ToolTip": "\\\\wsl.localhost\\Ubuntu\\home\\iago\\projetos\\wine-project\\backend\\01-WineProject.Business\\Services\\ProdutoService.cs",
+              "RelativeToolTip": "01-WineProject.Business\\Services\\ProdutoService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T02:03:58.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IProdutoRepository.cs",
+              "DocumentMoniker": "\\\\wsl.localhost\\Ubuntu\\home\\iago\\projetos\\wine-project\\backend\\01-WineProject.Business\\Interfaces\\IProdutoRepository.cs",
+              "RelativeDocumentMoniker": "01-WineProject.Business\\Interfaces\\IProdutoRepository.cs",
+              "ToolTip": "\\\\wsl.localhost\\Ubuntu\\home\\iago\\projetos\\wine-project\\backend\\01-WineProject.Business\\Interfaces\\IProdutoRepository.cs",
+              "RelativeToolTip": "01-WineProject.Business\\Interfaces\\IProdutoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T02:03:33.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "\\\\wsl.localhost\\Ubuntu\\home\\iago\\projetos\\wine-project\\backend\\WineProject.API\\Program.cs",
+              "RelativeDocumentMoniker": "WineProject.API\\Program.cs",
+              "ToolTip": "\\\\wsl.localhost\\Ubuntu\\home\\iago\\projetos\\wine-project\\backend\\WineProject.API\\Program.cs*",
+              "RelativeToolTip": "WineProject.API\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T01:42:26.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProdutoMapping.cs",
+              "DocumentMoniker": "\\\\wsl.localhost\\Ubuntu\\home\\iago\\projetos\\wine-project\\backend\\01-WineProject.Business\\Mappings\\ProdutoMapping.cs",
+              "RelativeDocumentMoniker": "01-WineProject.Business\\Mappings\\ProdutoMapping.cs",
+              "ToolTip": "\\\\wsl.localhost\\Ubuntu\\home\\iago\\projetos\\wine-project\\backend\\01-WineProject.Business\\Mappings\\ProdutoMapping.cs*",
+              "RelativeToolTip": "01-WineProject.Business\\Mappings\\ProdutoMapping.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T02:03:05.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProdutoMutation.cs",
+              "DocumentMoniker": "\\\\wsl.localhost\\Ubuntu\\home\\iago\\projetos\\wine-project\\backend\\WineProject.API\\Mutations\\ProdutoMutation.cs",
+              "RelativeDocumentMoniker": "WineProject.API\\Mutations\\ProdutoMutation.cs",
+              "ToolTip": "\\\\wsl.localhost\\Ubuntu\\home\\iago\\projetos\\wine-project\\backend\\WineProject.API\\Mutations\\ProdutoMutation.cs",
+              "RelativeToolTip": "WineProject.API\\Mutations\\ProdutoMutation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T01:58:10.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProdutoQuery.cs",
+              "DocumentMoniker": "\\\\wsl.localhost\\Ubuntu\\home\\iago\\projetos\\wine-project\\backend\\WineProject.API\\Schema\\ProdutoQuery.cs",
+              "RelativeDocumentMoniker": "WineProject.API\\Schema\\ProdutoQuery.cs",
+              "ToolTip": "\\\\wsl.localhost\\Ubuntu\\home\\iago\\projetos\\wine-project\\backend\\WineProject.API\\Schema\\ProdutoQuery.cs",
+              "RelativeToolTip": "WineProject.API\\Schema\\ProdutoQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T01:45:33.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "\\\\wsl.localhost\\Ubuntu\\home\\iago\\projetos\\wine-project\\backend\\WineProject.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WineProject.API\\Properties\\launchSettings.json",
+              "ToolTip": "\\\\wsl.localhost\\Ubuntu\\home\\iago\\projetos\\wine-project\\backend\\WineProject.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WineProject.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwCwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-27T01:43:05.651Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
