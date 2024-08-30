@@ -1,5 +1,35 @@
-# Vue 3 + Vite
+# Adega online
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Estive desenvolvendo um protótipo das telas
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+#Protótipo:
+
+![Protótipo](assets/images/mood.png)
+
+#Pode ser acessado pelo link abaixo:
+
+[Design no Figma](https://www.figma.com/design/vl2tpOvSsI6cSswJjI6vhP/Untitled?node-id=4-7&t=3nYfbWqGirNS3frq-1)
+
+
+#Mapeando as tabelas do banco de dados
+
+![Protótipo](assets/images/mood.png)
+
+
+#Para executar o projeto
+
+# npm install
+
+# Instale o Apollo Client 
+# npm install @apollo/client @vue/apollo-composable graphql
+
+#npm run dev
+
+
+#Tem duas rotas configuradas, rota '/' que seria a landing page, uma página inicial contendo uma apresentação sobre o negócio e recursos em destaque como coleção de produtos, sobre a empresa, categorias.
+
+#Temos a rota /listar-produtos, onde terá a listagem dos produto onde o usuário iria editar, adicionar ou remover.
+
+#A ideia inicial era realizar uma autenticação basica para acessar esse painel com um login de amin, e deixar a landing page para o usuário selecionar itens em um carrinho e posteriomente finalizar a compra;
+
+ 
