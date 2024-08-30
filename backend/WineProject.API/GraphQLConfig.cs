@@ -1,7 +1,7 @@
 ﻿using HotChocolate.Execution.Configuration;
 using HotChocolate.Types.Pagination;
 using WineProject.API.GraphQL;
-using WineProject.API.Schema;
+using WineProject.API.Types;
 
 namespace WineProject.API
 {
