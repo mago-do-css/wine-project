@@ -1,0 +1,14 @@
+import { gql } from '@apollo/client';
+
+export const GET_PRODUTOS = gql`
+  query BuscarTodosProdutos {
+    buscarTodosProdutos {
+      id
+      nome
+      descricao
+      estoque
+      marca
+      peso
+    }
+  }
+`;
