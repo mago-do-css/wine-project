@@ -1,7 +1,4 @@
-import { gql } from '@apollo/client';
-
-export const GET_PRODUTOS = gql`
-  query BuscarTodosProdutos {
+query BuscarTodosProdutos($id: ID!, $nome: String!, $descricao: String!, $estoque: Int!, $peso: Float, $marca: String) {
     buscarTodosProdutos {
       id
       nome
@@ -11,4 +8,9 @@ export const GET_PRODUTOS = gql`
       peso
     }
   }
-`;
+
+query BuscarProdutoPorId($id: ID!) {
+    buscarProdutoPorId {
+      id 
+    }
+  }
