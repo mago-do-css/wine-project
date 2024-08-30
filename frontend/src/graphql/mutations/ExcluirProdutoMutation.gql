@@ -1,5 +1,5 @@
 mutation ExcluirProduto($id: ID!) {
-    ExcluirProduto(id: $id) {
+    excluirProduto(id: $id) {
       success
       message
     }

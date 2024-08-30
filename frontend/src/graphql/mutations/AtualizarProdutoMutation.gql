@@ -1,5 +1,5 @@
   mutation AtualizarProduto($id: ID!, $nome: String!, $descricao: String!, $estoque: Int!, $peso: Float, $marca: String) {
-    AtualizarProduto(
+    atualizarProduto(
       produto: {
         id: $id
         nome: $nome
