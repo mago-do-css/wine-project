@@ -1,0 +1,16 @@
+query BuscarTodosProdutos($id: ID!, $nome: String!, $descricao: String!, $estoque: Int!, $peso: Float, $marca: String) {
+    buscarTodosProdutos {
+      id
+      nome
+      descricao
+      estoque
+      marca
+      peso
+    }
+  }
+
+query BuscarProdutoPorId($id: ID!) {
+    buscarProdutoPorId {
+      id 
+    }
+  }

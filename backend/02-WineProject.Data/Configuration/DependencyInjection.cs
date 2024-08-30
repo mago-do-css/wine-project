@@ -16,15 +16,10 @@ namespace _02_WineProject.Data.Configuration
                 {
                     npgsqlOptions.MigrationsAssembly(typeof(WineDbContext).Assembly.FullName);
                 });
-            });
-
-            // Registro dos repositórios genéricos
-            services.AddScoped(typeof(IRepository<>), typeof(GenericRepository<>));
-
-            // Adicionar outros serviços ou repositórios específicos se necessário
-            // Exemplo: services.AddScoped<IOrderRepository, OrderRepository>();
-
+            }); 
+            services.AddScoped(typeof(IRepository<>), typeof(GenericRepository<>)); 
+           
             return services;
         }
     }
-}
+}  

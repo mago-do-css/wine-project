@@ -2,7 +2,7 @@ using _02_WineProject.Data.Configuration;
 using Microsoft.EntityFrameworkCore;
 using WineProject.API;
 //using WineProject.API.Mutations;
-using WineProject.API.Schema;
+using WineProject.API.Types;
 
 var builder = WebApplication.CreateBuilder(args);
  
