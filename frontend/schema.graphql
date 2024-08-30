@@ -1,0 +1,53 @@
+schema {
+  query: Query
+  mutation: Mutation 
+}
+
+enum TipoVinho {
+  Tinto
+  Branco
+  Rose
+  Espumante
+}
+
+type Produto {
+  id: ID!
+  nome: String!
+  descricao: String!
+  estoque: Int!
+  peso: Float
+  marca: String 
+}
+
+type Query {
+  buscarTodosProdutos(
+    nome: String, 
+    descricao: String, 
+    estoque: Int, 
+    peso: Float, 
+    marca: String,  
+  ): [Produto!]!
+  
+  buscarProdutoPorId(id: ID!): Produto
+}
+
+type Mutation {
+  criarProduto(
+    nome: String!, 
+    descricao: String!, 
+    estoque: Int!, 
+    peso: Float, 
+    marca: String,  
+  ): Produto!
+
+  atualizarProduto(
+    id: ID!,
+    nome: String, 
+    descricao: String, 
+    estoque: Int, 
+    peso: Float, 
+    marca: String,  
+  ): Produto!
+
+  excluirProduto(id: ID!): Boolean!
+}
