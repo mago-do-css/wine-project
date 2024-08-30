@@ -14,7 +14,7 @@ Estive desenvolvendo um protótipo das telas
 
 #Mapeando as tabelas do banco de dados
 
-![Protótipo](frontend/src/assets/images/mood.png)
+![Protótipo](frontend/src/assets/images/tabelas.png)
 
 
 #Para executar o projeto
