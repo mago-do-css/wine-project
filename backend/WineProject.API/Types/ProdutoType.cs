@@ -6,39 +6,38 @@ using System.Linq;
 using _03_WineProject.Domain.Entities;
 using _01_WineProject.Business.DTOs;
 
-namespace WineProject.API.Schema
+namespace WineProject.API.Types
 {
     public class ProdutoType : ObjectType<Produto>
     {
         protected override void Configure(IObjectTypeDescriptor<Produto> descriptor)
         {
             descriptor
-                .Field(p => p.Id)
-                .Description("Represents the unique ID of the product.");
+                .Field(p => p.Id) ;
 
             descriptor
                 .Field(p => p.Nome)
-                .Description("Represents the name of the product.");
+                .Description("Nome do produto");
 
             descriptor
                 .Field(p => p.QtdeEstoque)
-                .Description("Represents the quantity in stock of the product.");
+                .Description("Quantidade do estoque");
 
             descriptor
                 .Field(p => p.Preco)
-                .Description("Represents the price of the product.");
+                .Description("Preço do produto");
 
             descriptor
                 .Field(p => p.Peso)
-                .Description("Represents the weight of the product.");
+                .Description("Peso do produto");
 
             descriptor
                 .Field(p => p.Marca)
-                .Description("Represents the brand of the product.");
+                .Description("Marca do produto");
 
             descriptor
                 .Field(p => p.Descricao)
-                .Description("Represents the description of the product.");
+                .Description("Descrição");
 
             // Exemplo de um campo que resolve dados diretamente do banco de dados
             descriptor
