@@ -48,6 +48,12 @@
         </div>
       </form>
     </div>
+    <div v-else-if="isExcluding">
+      <form @submit.prevent="excluirProduto">
+      <input v-model="produtoId" placeholder="ID do Produto" />
+      <button type="submit">Excluir Produto</button>
+    </form>
+    </div>
     <div v-else>
       <div class="">
         <Card v-for="(product, index) in products" :key="index" :productName="product.nome"
@@ -61,7 +67,10 @@
 <script>
 import appLayout from '../layouts/app.vue';
 import Card from '../components/common/Card.vue';
+import { ref } from 'vue';
+import { useMutation } from '@apollo/client';  
 
+ 
 export default {
   name: 'ListProdutos',
   components: {

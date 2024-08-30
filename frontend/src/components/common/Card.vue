@@ -1,7 +1,7 @@
 <template> 
     <div class="flex mb-4">
         <div class="rounded-[11px] bg-white h-[100px] w-[100px] mr-5"> 
-            <img class="rounded-full" src="../../assets/images/product.webp" alt="" />
+            <img class="p-2 rounded-full" src="../../assets/images/product.webp" alt="" />
         </div>
         <div class="flex flex-col justify-between">
             <div class="flex items-baseline">
@@ -9,7 +9,7 @@
                     <h2 class="text-[20px] font-semibold">{{ nome }}</h2>
                     <p>{{ descricao }}</p>
                 </div>
-                <h3 class="font-medium">{{ estoque }}x</h3>
+                <h3 class="ml-4 font-medium">{{ estoque }}x</h3>
             </div>
             <div>
                 <button @click="handleclick" 

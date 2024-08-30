@@ -1,4 +1,14 @@
-  mutation AtualizarProduto($id: ID!, $nome: String!, $descricao: String!, $estoque: Int!, $peso: Float, $marca: String) {
+import { gql } from '@apollo/client';
+
+export const ATUALIZAR_PRODUTO = gql`
+  mutation AtualizarProduto(
+    $id: ID!
+    $nome: String!
+    $descricao: String!
+    $estoque: Int!
+    $peso: Float
+    $marca: String
+  ) {
     atualizarProduto(
       produto: {
         id: $id
@@ -17,3 +27,4 @@
       marca
     }
   }
+`;

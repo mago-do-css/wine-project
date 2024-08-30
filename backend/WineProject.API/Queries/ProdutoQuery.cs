@@ -11,6 +11,20 @@ namespace WineProject.API.GraphQL
         public IQueryable<Produto> BuscarTodosProdutos([ScopedService] WineDbContext context)
         {
             return new ProdutoType.ProdutoResolvers().BuscarTodosProdutos(context);
-        }  
+        }
+
+        public async Task<Produto> BuscarProdutoPorId(Guid id, [ScopedService] WineDbContext context)
+        {
+            var produto = await context.Produto.FindAsync(id);
+
+            if (produto == null) {
+                return null;
+            }
+            else
+            {
+                return produto;
+            }
+        }
+
     }
 }

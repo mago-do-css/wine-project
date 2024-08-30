@@ -15,7 +15,7 @@
    <script> 
    
    export default {
-     name: 'Logo', 
+     name: 'IconMouse', 
      props:{
        class:{
            type: String, 
