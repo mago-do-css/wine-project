@@ -1,0 +1,52 @@
+import { gql } from '@apollo/client';
+
+export const ADD_PRODUCT = gql`
+  mutation AdicionarProduto($id: ID!, $nome: String!, $descricao: String!, $estoque: Int!, $peso: Float, $marca: String) {
+    AdicionarProduto( produto: {
+        id: $id
+        nome: $nome
+        descricao: $descricao
+        estoque: $estoque
+        peso: $peso
+        marca: $marca
+      }) {
+      id
+      nome
+      descricao
+      estoque
+      peso
+      marca
+    }
+  }
+`;  
+
+export const REMOVE_PRODUCT = gql`
+  mutation ExcluirProduto($id: ID!) {
+    ExcluirProduto(id: $id) {
+      success
+      message
+    }
+  }
+`;
+
+export const UPDATE_PRODUCT = gql`
+  mutation AtualizarProduto($id: ID!, $nome: String!, $descricao: String!, $estoque: Int!, $peso: Float, $marca: String) {
+    AtualizarProduto(
+      produto: {
+        id: $id
+        nome: $nome
+        descricao: $descricao
+        estoque: $estoque
+        peso: $peso
+        marca: $marca
+      }
+    ) {
+      id
+      nome
+      descricao
+      estoque
+      peso
+      marca
+    }
+  }
+`;
