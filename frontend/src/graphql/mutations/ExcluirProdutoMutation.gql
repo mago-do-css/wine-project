@@ -1,0 +1,6 @@
+mutation ExcluirProduto($id: ID!) {
+    ExcluirProduto(id: $id) {
+      success
+      message
+    }
+}
