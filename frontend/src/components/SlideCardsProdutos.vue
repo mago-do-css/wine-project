@@ -58,8 +58,7 @@ export default {
         },
       }).mount();
     },
-    addToCart(product) { 
-      // Lógica para adicionar o produto ao carrinho
+    addToCart(product) {  
     }
   }
 }
