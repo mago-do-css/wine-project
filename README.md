@@ -41,11 +41,11 @@ Executar o comando
 
 3. Excute o comando: dotnet ef database update --project . --startup-project ..\WineProject.API\ 
 
+> [!NOTE]
+>Tem duas rotas configuradas, rota '/' para  landing page, uma página inicial contendo uma apresentação sobre o negócio e recursos em destaque como coleção de produtos, sobre a empresa, categorias.
 
-#Tem duas rotas configuradas, rota '/' para  landing page, uma página inicial contendo uma apresentação sobre o negócio e recursos em destaque como coleção de produtos, sobre a empresa, categorias.
+> Temos a rota /listar-produtos, onde terá a listagem dos produto onde o usuário iria editar, adicionar ou remover.
 
-#Temos a rota /listar-produtos, onde terá a listagem dos produto onde o usuário iria editar, adicionar ou remover.
-
-#A ideia inicial era realizar uma autenticação basica para acessar esse painel com um login de amin, e deixar a landing page para o usuário selecionar itens em um carrinho e posteriomente finalizar a compra;
+>A ideia inicial era realizar uma autenticação basica para acessar esse painel com um login de amin, e deixar a landing page para o usuário selecionar itens em um carrinho e posteriomente finalizar a compra;
 
  
