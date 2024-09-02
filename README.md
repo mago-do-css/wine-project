@@ -20,16 +20,8 @@ Estive desenvolvendo um protótipo das telas
 
 Istalar o npm:
 ➡️ npm install
-
-Isntalar o Apollo Client 
-➡️ npm install @apollo/client @vue/apollo-composable graphql
-
-Instalar o splide
-➡️ npm install @splidejs/splide
-
 Executar o comando
 ➡️ npm run dev
-
 
 
 # Para executar o projeto backend:
