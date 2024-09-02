@@ -18,7 +18,7 @@ Estive desenvolvendo um protótipo das telas
 
 # Para executar o projeto frontend:
 
-Istalar o npm:
+Instalar o npm:
 ➡️ npm install
 
 Executar o comando
