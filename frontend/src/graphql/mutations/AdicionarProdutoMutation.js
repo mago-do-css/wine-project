@@ -1,30 +1,18 @@
+
 import { gql } from '@apollo/client';
 
-export const ADICIONAR_PRODUTO = gql`
-  mutation AdicionarProduto(
-    $id: ID!
-    $nome: String!
-    $descricao: String!
-    $estoque: Int!
-    $peso: Float
-    $marca: String
-  ) {
-    adicionarProduto(
-      produto: {
-        id: $id
-        nome: $nome
-        descricao: $descricao
-        estoque: $estoque
-        peso: $peso
-        marca: $marca
+export const CRIAR_PRODUTO = gql`
+  mutation adicionarProduto($input: AtualizarProdutoInput!){
+    adicionarProduto(input: $input) {
+      produtoDTO {
+        id
+        descricao
+        nome
+        peso
+        preco
+        marca
+        qtdeEstoque
       }
-    ) {
-      id
-      nome
-      descricao
-      estoque
-      peso
-      marca
-    }
+    } 
   }
 `;

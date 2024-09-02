@@ -14,7 +14,7 @@ type Produto {
   id: ID!
   nome: String!
   descricao: String!
-  estoque: Int!
+  qtdeEstoque: Int!
   peso: Float
   marca: String 
 }

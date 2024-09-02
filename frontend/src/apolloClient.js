@@ -2,9 +2,10 @@ import { ApolloClient, InMemoryCache } from '@apollo/client/core';
 import { provideApolloClient } from '@vue/apollo-composable';
 
 const apolloClient = new ApolloClient({
-  uri: 'http://127.0.0.1:5057/graphql',
+  uri: 'https://localhost:7173',
   cache: new InMemoryCache(),
 });
 
-// Exporta o cliente Apollo para uso em outros arquivos
+provideApolloClient(apolloClient);  
+
 export default apolloClient;
