@@ -4,8 +4,7 @@ import App from './App.vue';
 import { ApolloClient, InMemoryCache } from '@apollo/client';
 import { DefaultApolloClient, provideApolloClient } from '@vue/apollo-composable'; 
 import PrimeVue from 'primevue/config';
-import { useRouter } from 'vue-router';
-import store from './stores/produtos';
+import { useRouter } from 'vue-router'; 
  
 const apolloClient = new ApolloClient({
     uri: 'http://127.0.0.1:5057/graphql',
@@ -20,7 +19,6 @@ const app = createApp({
 });
 
 app.use(PrimeVue);
-app.use(useRouter);
-app.use(store);
+app.use(useRouter); 
 
 createApp(App).mount('#app') 
