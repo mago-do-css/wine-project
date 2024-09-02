@@ -19,10 +19,14 @@ Estive desenvolvendo um protótipo das telas
 
 #Para executar o projeto
 
-# npm install
+$ npm install
 
 # Instale o Apollo Client 
-# npm install @apollo/client @vue/apollo-composable graphql
+$ npm install @apollo/client @vue/apollo-composable graphql
+
+$Instalar o splide
+
+$ npm install @splidejs/splide
 
 #npm run dev
 
