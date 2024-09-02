@@ -1,30 +1,25 @@
-﻿using _02_WineProject.Data.Context;
+﻿using _02_WineProject.Data.Interfaces;
 using _03_WineProject.Domain.Entities;
-using WineProject.API.Types;
+using AutoMapper;
 
-namespace WineProject.API.GraphQL
+namespace WineProject.API.GraphQL.Queries
 {
-    [ExtendObjectType("Query")]
-    public partial class ProdutoQuery
-    {  
-        [GraphQLDescription("Gets the list of products.")]
-        public IQueryable<Produto> BuscarTodosProdutos([ScopedService] WineDbContext context)
+    public class ProdutoQuery
+    {
+        private readonly IProdutoRepository _produtoRepository;
+        private readonly IMapper _mapper;
+
+        public ProdutoQuery(IProdutoRepository produtoRepository, IMapper mapper)
         {
-            return new ProdutoType.ProdutoResolvers().BuscarTodosProdutos(context);
+            _produtoRepository = produtoRepository;
+            _mapper = mapper;
         }
 
-        public async Task<Produto> BuscarProdutoPorId(Guid id, [ScopedService] WineDbContext context)
+        public async Task<IQueryable<Produto>> BuscarTodosProdutos()
         {
-            var produto = await context.Produto.FindAsync(id);
-
-            if (produto == null) {
-                return null;
-            }
-            else
-            {
-                return produto;
-            }
+            var listaProdutos = await _produtoRepository.BuscarTodos(); 
+             
+            return listaProdutos;
         }
-
     }
 }

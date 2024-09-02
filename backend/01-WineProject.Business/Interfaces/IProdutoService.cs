@@ -1,12 +1,11 @@
-﻿using _01_WineProject.Business.DTOs;
-using _03_WineProject.Domain.Entities;
+﻿using _01_WineProject.Business.DTOs; 
 
 namespace _01_WineProject.Business.Interfaces
 {
-    public interface IProdutoService : IService<Produto>
+    public interface IProdutoService
     {
-        Task<ProdutoDTO> CriarProduto(ProdutoDTO produtoDTO);  
-        Task<bool> RemoverProduto(Guid id);
-        Task<ProdutoDTO> AtualizarProduto(ProdutoDTO produtoDTO);
+        Task<ProdutoDTO> Criar(ProdutoDTO produtoDTO);
+        Task<bool> Remover(int id);
+        Task<ProdutoDTO> Atualizar(ProdutoDTO produtoDTO);
     }
 }

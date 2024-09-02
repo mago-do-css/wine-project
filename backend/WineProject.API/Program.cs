@@ -1,43 +1,55 @@
-using _02_WineProject.Data.Configuration;
+using _01_WineProject.Business.Interfaces;
+using _01_WineProject.Business.Services;
+using _02_WineProject.Data.Context;
 using Microsoft.EntityFrameworkCore;
-using WineProject.API;
-//using WineProject.API.Mutations;
-using WineProject.API.Types;
+using _02_WineProject.Data.Repositories;
+using WineProject.API.GraphQL.Mutations;
+using WineProject.API.GraphQL.Queries;
+using _02_WineProject.Data.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
- 
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
- 
-var connectionString = Environment.GetEnvironmentVariable("DefaultConnection");
-builder.Services.CreateDatabase(connectionString);
 
-builder.Services.CreateGraphQLConfig(); // Configuração do GraphQL
+// Add services to the container.
+builder.Services.AddEndpointsApiExplorer(); 
 
- 
+builder.Services.AddDbContextFactory<WineDbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")
+   // m=>m.MigrationsAssembly("02-WineProject.Data")
+));
+builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
+builder.Services.AddScoped<IProdutoService, ProdutoService>();
+
+builder.Services
+    .AddGraphQLServer()
+    .AddQueryType<ProdutoQuery>()       
+    .AddMutationType<ProdutoMutation>()
+    .AddMutationConventions()
+    .AddInMemorySubscriptions();
+
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-
-// Configuração do CORS
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy("MyCorsPolicy", builder =>
-    {
-        builder.AllowAnyOrigin() // Permite qualquer origem. Substitua por .WithOrigins("https://example.com") para restringir.
-               .AllowAnyMethod() // Permite qualquer método HTTP (GET, POST, PUT, etc.).
-               .AllowAnyHeader(); // Permite qualquer cabeçalho.
-                                  //.AllowCredentials(); // Descomente esta linha se precisar permitir cookies ou autenticação baseada em credenciais.
-    });
-});
-
+builder.Services.AddCors(); 
 var app = builder.Build();
 
-// cria o middleware
-app.UseCors("MyCorsPolicy"); 
+// Configure the HTTP request pipeline.
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Error");
+    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+    app.UseHsts();
+}
 
-app.UseRouting();  
-app.UseAuthorization();  
+app.UseHttpsRedirection();
+app.UseStaticFiles();
 
-app.MapGraphQL();  
-app.UseHttpsRedirection(); 
+app.UseRouting();
+
+app.UseCors(x => x
+    .AllowAnyMethod()
+    .AllowAnyHeader()
+    .SetIsOriginAllowed(origin => true));
+
+//app.UseAuthorization();
+
+app.MapGraphQL("/");
 
 app.Run();

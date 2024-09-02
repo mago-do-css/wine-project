@@ -1,32 +1,36 @@
 ﻿using _01_WineProject.Business.DTOs;
+using _01_WineProject.Business.Interfaces;
 using _01_WineProject.Business.Services;
-using HotChocolate;
-using System.Threading.Tasks; 
 
-public class ProdutoMutation
+namespace WineProject.API.GraphQL.Mutations
 {
-    private readonly ProdutoService _produtoService;
-
-    public ProdutoMutation(ProdutoService produtoService)
+    public class ProdutoMutation
     {
-        _produtoService = produtoService; 
+        private readonly IProdutoService _produtoService;
+
+        public ProdutoMutation(IProdutoService produtoService)
+        {
+            _produtoService = produtoService;
+        }
+
+        public async Task<ProdutoDTO> AdicionarProduto(ProdutoDTO produtoDTO)
+        {
+            //sua mutation de fato pede um dto no param
+            return await _produtoService.Criar(produtoDTO);
+        }
+
+        public async Task<ProdutoDTO> AtualizarProduto(ProdutoDTO produtoDTO)
+        {
+
+            return await _produtoService.Atualizar(produtoDTO);
+        }
+
+        public async Task<bool> ExcluirProduto(int id)
+        {
+            var response = await _produtoService.Remover(id);
+
+            return response;
+        }
     }
 
-    public async Task<ProdutoDTO> AdicionarProduto(ProdutoDTO produtoDTO)
-    {
-       return await _produtoService.CriarProduto(produtoDTO);
-    }
-
-    public async Task<ProdutoDTO> AtualizarProduto(ProdutoDTO produtoDTO)
-    {
-
-        return await _produtoService.AtualizarProduto(produtoDTO);
-    }
-
-    public async Task<bool> ExcluirProduto(Guid id)
-    {
-         var response = await _produtoService.RemoverProduto(id);
-
-        return response;
-    }
 }

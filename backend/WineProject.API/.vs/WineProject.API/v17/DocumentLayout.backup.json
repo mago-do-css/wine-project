@@ -1,0 +1,264 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\projetos\\wine-project\\backend\\WineProject.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{63D8FE9F-8376-449C-ABFC-C3BD4BFB95D6}|..\\02-WineProject.Data\\02-WineProject.Data.csproj|c:\\projetos\\wine-project\\backend\\02-wineproject.data\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05595C63-FB75-48D2-8323-CA0075CE50BF}|..\\01-WineProject.Business\\01-WineProject.Business.csproj|c:\\projetos\\wine-project\\backend\\01-wineproject.business\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63D8FE9F-8376-449C-ABFC-C3BD4BFB95D6}|..\\02-WineProject.Data\\02-WineProject.Data.csproj|c:\\projetos\\wine-project\\backend\\02-wineproject.data\\interfaces\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7406F4F0-ACA6-4216-B67B-53A5DB4CC36C}|WineProject.API.csproj|c:\\projetos\\wine-project\\backend\\wineproject.api\\graphql\\mutations\\produtomutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7406F4F0-ACA6-4216-B67B-53A5DB4CC36C}|WineProject.API.csproj|solutionrelative:graphql\\mutations\\produtomutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7406F4F0-ACA6-4216-B67B-53A5DB4CC36C}|WineProject.API.csproj|c:\\projetos\\wine-project\\backend\\wineproject.api\\automapper\\produtomapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7406F4F0-ACA6-4216-B67B-53A5DB4CC36C}|WineProject.API.csproj|solutionrelative:automapper\\produtomapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7406F4F0-ACA6-4216-B67B-53A5DB4CC36C}|WineProject.API.csproj|c:\\projetos\\wine-project\\backend\\wineproject.api\\automapper\\automappersetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7406F4F0-ACA6-4216-B67B-53A5DB4CC36C}|WineProject.API.csproj|solutionrelative:automapper\\automappersetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05595C63-FB75-48D2-8323-CA0075CE50BF}|..\\01-WineProject.Business\\01-WineProject.Business.csproj|c:\\projetos\\wine-project\\backend\\01-wineproject.business\\dtos\\produtodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7406F4F0-ACA6-4216-B67B-53A5DB4CC36C}|WineProject.API.csproj|c:\\projetos\\wine-project\\backend\\wineproject.api\\graphql\\queries\\produtoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7406F4F0-ACA6-4216-B67B-53A5DB4CC36C}|WineProject.API.csproj|solutionrelative:graphql\\queries\\produtoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7406F4F0-ACA6-4216-B67B-53A5DB4CC36C}|WineProject.API.csproj|c:\\projetos\\wine-project\\backend\\wineproject.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7406F4F0-ACA6-4216-B67B-53A5DB4CC36C}|WineProject.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05595C63-FB75-48D2-8323-CA0075CE50BF}|..\\01-WineProject.Business\\01-WineProject.Business.csproj|c:\\projetos\\wine-project\\backend\\01-wineproject.business\\interfaces\\iprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63D8FE9F-8376-449C-ABFC-C3BD4BFB95D6}|..\\02-WineProject.Data\\02-WineProject.Data.csproj|c:\\projetos\\wine-project\\backend\\02-wineproject.data\\migrations\\20240902084028_atualizarprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7406F4F0-ACA6-4216-B67B-53A5DB4CC36C}|WineProject.API.csproj|c:\\projetos\\wine-project\\backend\\wineproject.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7406F4F0-ACA6-4216-B67B-53A5DB4CC36C}|WineProject.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7447A20C-FD5F-4651-B93A-A19CE416562E}|..\\03-WineProject.Domain\\03-WineProject.Domain.csproj|c:\\projetos\\wine-project\\backend\\03-wineproject.domain\\entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7406F4F0-ACA6-4216-B67B-53A5DB4CC36C}|WineProject.API.csproj|c:\\projetos\\wine-project\\backend\\wineproject.api\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7406F4F0-ACA6-4216-B67B-53A5DB4CC36C}|WineProject.API.csproj|solutionrelative:wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7406F4F0-ACA6-4216-B67B-53A5DB4CC36C}|WineProject.API.csproj|c:\\projetos\\wine-project\\backend\\wineproject.api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{7406F4F0-ACA6-4216-B67B-53A5DB4CC36C}|WineProject.API.csproj|solutionrelative:wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProdutoMutation.cs",
+              "DocumentMoniker": "C:\\projetos\\wine-project\\backend\\WineProject.API\\GraphQL\\Mutations\\ProdutoMutation.cs",
+              "RelativeDocumentMoniker": "GraphQL\\Mutations\\ProdutoMutation.cs",
+              "ToolTip": "C:\\projetos\\wine-project\\backend\\WineProject.API\\GraphQL\\Mutations\\ProdutoMutation.cs",
+              "RelativeToolTip": "GraphQL\\Mutations\\ProdutoMutation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T16:47:21.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProdutoService.cs",
+              "DocumentMoniker": "C:\\projetos\\wine-project\\backend\\01-WineProject.Business\\Services\\ProdutoService.cs",
+              "RelativeDocumentMoniker": "..\\01-WineProject.Business\\Services\\ProdutoService.cs",
+              "ToolTip": "C:\\projetos\\wine-project\\backend\\01-WineProject.Business\\Services\\ProdutoService.cs*",
+              "RelativeToolTip": "..\\01-WineProject.Business\\Services\\ProdutoService.cs*",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T16:45:16.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProdutoRepository.cs",
+              "DocumentMoniker": "C:\\projetos\\wine-project\\backend\\02-WineProject.Data\\Repositories\\ProdutoRepository.cs",
+              "RelativeDocumentMoniker": "..\\02-WineProject.Data\\Repositories\\ProdutoRepository.cs",
+              "ToolTip": "C:\\projetos\\wine-project\\backend\\02-WineProject.Data\\Repositories\\ProdutoRepository.cs*",
+              "RelativeToolTip": "..\\02-WineProject.Data\\Repositories\\ProdutoRepository.cs*",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAcwFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T16:43:27.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\projetos\\wine-project\\backend\\WineProject.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\projetos\\wine-project\\backend\\WineProject.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T03:56:24.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20240902084028_AtualizarProdutos.cs",
+              "DocumentMoniker": "C:\\projetos\\wine-project\\backend\\02-WineProject.Data\\Migrations\\20240902084028_AtualizarProdutos.cs",
+              "RelativeDocumentMoniker": "..\\02-WineProject.Data\\Migrations\\20240902084028_AtualizarProdutos.cs",
+              "ToolTip": "C:\\projetos\\wine-project\\backend\\02-WineProject.Data\\Migrations\\20240902084028_AtualizarProdutos.cs",
+              "RelativeToolTip": "..\\02-WineProject.Data\\Migrations\\20240902084028_AtualizarProdutos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T08:40:49.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProdutoQuery.cs",
+              "DocumentMoniker": "C:\\projetos\\wine-project\\backend\\WineProject.API\\GraphQL\\Queries\\ProdutoQuery.cs",
+              "RelativeDocumentMoniker": "GraphQL\\Queries\\ProdutoQuery.cs",
+              "ToolTip": "C:\\projetos\\wine-project\\backend\\WineProject.API\\GraphQL\\Queries\\ProdutoQuery.cs",
+              "RelativeToolTip": "GraphQL\\Queries\\ProdutoQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T05:34:14.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IProdutoService.cs",
+              "DocumentMoniker": "C:\\projetos\\wine-project\\backend\\01-WineProject.Business\\Interfaces\\IProdutoService.cs",
+              "RelativeDocumentMoniker": "..\\01-WineProject.Business\\Interfaces\\IProdutoService.cs",
+              "ToolTip": "C:\\projetos\\wine-project\\backend\\01-WineProject.Business\\Interfaces\\IProdutoService.cs",
+              "RelativeToolTip": "..\\01-WineProject.Business\\Interfaces\\IProdutoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T16:47:52.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProdutoMapping.cs",
+              "DocumentMoniker": "C:\\projetos\\wine-project\\backend\\WineProject.API\\Automapper\\ProdutoMapping.cs",
+              "RelativeDocumentMoniker": "Automapper\\ProdutoMapping.cs",
+              "ToolTip": "C:\\projetos\\wine-project\\backend\\WineProject.API\\Automapper\\ProdutoMapping.cs",
+              "RelativeToolTip": "Automapper\\ProdutoMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T08:36:42.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AutoMapperSetup.cs",
+              "DocumentMoniker": "C:\\projetos\\wine-project\\backend\\WineProject.API\\Automapper\\AutoMapperSetup.cs",
+              "RelativeDocumentMoniker": "Automapper\\AutoMapperSetup.cs",
+              "ToolTip": "C:\\projetos\\wine-project\\backend\\WineProject.API\\Automapper\\AutoMapperSetup.cs",
+              "RelativeToolTip": "Automapper\\AutoMapperSetup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T08:36:40.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IProdutoRepository.cs",
+              "DocumentMoniker": "C:\\projetos\\wine-project\\backend\\02-WineProject.Data\\Interfaces\\IProdutoRepository.cs",
+              "RelativeDocumentMoniker": "..\\02-WineProject.Data\\Interfaces\\IProdutoRepository.cs",
+              "ToolTip": "C:\\projetos\\wine-project\\backend\\02-WineProject.Data\\Interfaces\\IProdutoRepository.cs",
+              "RelativeToolTip": "..\\02-WineProject.Data\\Interfaces\\IProdutoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T16:57:52.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProdutoDTO.cs",
+              "DocumentMoniker": "C:\\projetos\\wine-project\\backend\\01-WineProject.Business\\DTOs\\ProdutoDTO.cs",
+              "RelativeDocumentMoniker": "..\\01-WineProject.Business\\DTOs\\ProdutoDTO.cs",
+              "ToolTip": "C:\\projetos\\wine-project\\backend\\01-WineProject.Business\\DTOs\\ProdutoDTO.cs",
+              "RelativeToolTip": "..\\01-WineProject.Business\\DTOs\\ProdutoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T17:46:11.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "bootstrap-reboot.css.map",
+              "DocumentMoniker": "C:\\projetos\\wine-project\\backend\\WineProject.API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+              "ToolTip": "C:\\projetos\\wine-project\\backend\\WineProject.API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+              "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABxPQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-02T08:21:06.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "jquery.js",
+              "DocumentMoniker": "C:\\projetos\\wine-project\\backend\\WineProject.API\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "ToolTip": "C:\\projetos\\wine-project\\backend\\WineProject.API\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "RelativeToolTip": "wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "ViewState": "AgIAAAoUAAAAAAAAAAAQwDoUAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-02T08:21:09.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\projetos\\wine-project\\backend\\03-WineProject.Domain\\Entities\\Produto.cs",
+              "RelativeDocumentMoniker": "..\\03-WineProject.Domain\\Entities\\Produto.cs",
+              "ToolTip": "C:\\projetos\\wine-project\\backend\\03-WineProject.Domain\\Entities\\Produto.cs",
+              "RelativeToolTip": "..\\03-WineProject.Domain\\Entities\\Produto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T08:21:41.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\projetos\\wine-project\\backend\\WineProject.API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\projetos\\wine-project\\backend\\WineProject.API\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-02T08:31:48.666Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,37 +1,40 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <TypeScriptTarget>ES6</TypeScriptTarget>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <TypeScriptTarget>ES6</TypeScriptTarget>
+  </PropertyGroup>
+
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>c5d525d5-ab2d-4add-be66-f3eb11aff2fd</UserSecretsId>
+    <UserSecretsId>9c4dc0c4-14e5-4a71-b7c7-d66c5ee71f7e</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>.</DockerfileContext>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="HotChocolate" Version="13.9.11" />
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
     <PackageReference Include="HotChocolate.AspNetCore" Version="13.9.11" />
-    <PackageReference Include="HotChocolate.Data" Version="13.9.11" />
-    <PackageReference Include="HotChocolate.Data.EntityFramework" Version="13.9.11" />
-    <PackageReference Include="HotChocolate.Subscriptions.Postgres" Version="13.9.11" />
-    <PackageReference Include="HotChocolate.Types" Version="13.9.11" />
-    <PackageReference Include="HotChocolate.Types.Mutations" Version="13.9.11" />
-    <PackageReference Include="HotChocolate.Types.Selections" Version="10.5.5" />
-    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.8" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.8">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.8">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.4" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="GraphQL\Types\" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\01-WineProject.Business\01-WineProject.Business.csproj" />
+    <ProjectReference Include="..\02-WineProject.Data\02-WineProject.Data.csproj" />
     <ProjectReference Include="..\03-WineProject.Domain\03-WineProject.Domain.csproj" />
   </ItemGroup>
 
