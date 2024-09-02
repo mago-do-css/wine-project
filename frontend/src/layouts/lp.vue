@@ -3,34 +3,49 @@
         <div class="relative w-full">
             <header class="absolute  w-full items-center mb-12 py-9">
                 <div class="w-[1200px] mx-auto flex justify-between ">
-                    <logo class=""></logo>
+                    <logo></logo>
                     <div>
-                        <ButtonColor color="white" text="Entrar" hover="#293D33" />
-                        <button
-                            class="rounded-full  text-white px-4 py-2 rounded-full ml-6 border-1 border hover:bg-white transition hover:text-black">Login</button>
+                        <a href="" class="mr-5">
+                            <ButtonColor
+                         backgroundColor="white" 
+                         textColor="#1d1d1d" 
+                         text="Entrar"
+                         borderColor="white"
+                        />
+                        </a>
+                        <a href="">
+                            <ButtonColor
+                             backgroundColor=""
+                             hover="white" 
+                             textColor="white" 
+                             text="Login"
+                             borderColor="white"
+                            />
+                        </a>  
                     </div>
                 </div>
             </header>
             <div class="h-full flex flex-col justify-center items-start w-[1200px] mx-auto align">
-                <h1 class="text-white text-6xl">Lorem ipsum dolor sit amet</h1>
-                <p class="text-white mt-4">lorem ispum dolor sit amet lorem ispum dolor sit amet Vinhos Excepcionais Direto da Adega ao Seu Copo</p>
+                <h1 class="text-white text-[38px] xl:text-[45px] leading-none 2xl:text-6xl font-light">
+                    Tenha <span class="text-[#03bd60] font-semibold" style="text-shadow:1px 1px 2px black;
+                    ">vinhos exclusivos</span> para refinar seu paladar<br class="2xl:hidden"> sem precisar sair de casa!
+                                    </h1>
+                <p  style="text-shadow:1px 1px 2px black;" class="text-white mt-8 text-[18px] w-[80%] font-normal"> Com nossa adega online, você desfruta da conveniência de receber vinhos premiados diretamente na sua porta, sem comprometer a qualidade.
+                    Descubra rótulos sofisticados e novidades emocionantes que prometem enriquecer seus momentos de celebração ou simplesmente tornar o dia a dia mais especial.</p>
             </div>
             <div class="absolute w-full z-50 justify-center flex mt-[-150px] flex-col items-center">
                <IconMouse></IconMouse>
-                <p class="text-white">scrow down</p>
+                <a href="" class="text-white mt-6 hover:underline">Veja mais</a>
             </div>
         </div>
-    </section>
-    <div class="flex">
-
-    </div>
-    <main class="bg-[#D9D9D9] w-[1200px] mx-auto rounded-[26px] p-10">
+    </section>   
+    <main class="bg-[#F5F9FF]">
         <slot></slot>
     </main>
 
-    <footer>
-        <p>Meu Rodapé</p>
-        <!-- Adicione aqui seu conteúdo de rodapé -->
+    <footer class="text-center bg-[#F5F9FF] flex flex-col justify-center items-center py-5">
+        <img src="../assets/images/logo-black.png" alt="">
+        <p class="text-[14px] mt-5">© 2024 Adega Online. Todos os direitos reservados.</p>
     </footer>
 </template>
 
