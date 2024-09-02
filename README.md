@@ -11,7 +11,6 @@ Estive desenvolvendo um protótipo das telas
 
 [Design no Figma](https://www.figma.com/design/vl2tpOvSsI6cSswJjI6vhP/Untitled?node-id=4-7&t=3nYfbWqGirNS3frq-1)
 
-
 #Mapeando as tabelas do banco de dados
 
 ![Protótipo](frontend/src/assets/images/tabelas.png)
@@ -20,27 +19,27 @@ Estive desenvolvendo um protótipo das telas
 # Para executar o projeto frontend:
 
 Istalar o npm:
-$ npm install
+➡️ npm install
 
 Isntalar o Apollo Client 
-$ npm install @apollo/client @vue/apollo-composable graphql
+➡️ npm install @apollo/client @vue/apollo-composable graphql
 
 Instalar o splide
-$ npm install @splidejs/splide
+➡️ npm install @splidejs/splide
 
 Executar o comando
-$ npm run dev
+➡️ npm run dev
 
 
 
 # Para executar o projeto backend:
 
-Crie a migration:
-1 - Clique com o botão direito na camada 02-WineProject.Data > Abrir no terminal | Ficará como: seu-diretorio\wine-project\backend\02-WineProject.Data>
-2 - Execute o comand:  dotnet ef migrations add AtualizarProdutos --project . --startup-project ..\WineProject.API\ 
-3 - Excute o comando: dotnet ef database update --project . --startup-project ..\WineProject.API\ 
+* Crie a migration:
+1. Clique com o botão direito na camada 02-WineProject.Data > Abrir no terminal | Ficará como: seu-diretorio\wine-project\backend\02-WineProject.Data>
 
+2. Execute o comand:  dotnet ef migrations add AtualizarProdutos --project . --startup-project ..\WineProject.API\ 
 
+3. Excute o comando: dotnet ef database update --project . --startup-project ..\WineProject.API\ 
 
 
 #Tem duas rotas configuradas, rota '/' para  landing page, uma página inicial contendo uma apresentação sobre o negócio e recursos em destaque como coleção de produtos, sobre a empresa, categorias.
