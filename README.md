@@ -20,6 +20,7 @@ Estive desenvolvendo um protótipo das telas
 
 Istalar o npm:
 ➡️ npm install
+
 Executar o comando
 ➡️ npm run dev
 
