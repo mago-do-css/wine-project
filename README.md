@@ -34,10 +34,12 @@ Executar o comando
 
 # Para executar o projeto backend:
 
+* Verifique a appSettings e forneça os parametros de conexão Ex:  "DefaultConnection": "Host=host.docker.internal;Port=5432;Database=wineproj3;Username=root;Password=wineproject404"
+
 * Crie a migration:
 1. Clique com o botão direito na camada 02-WineProject.Data > Abrir no terminal | Ficará como: seu-diretorio\wine-project\backend\02-WineProject.Data>
 
-2. Execute o comand:  dotnet ef migrations add AtualizarProdutos --project . --startup-project ..\WineProject.API\ 
+2. Execute o comand:  dotnet ef migrations add AtualizarProdutos --project . --startup-project ..\WineProject.API\ ( caso não tenha migrations )
 
 3. Excute o comando: dotnet ef database update --project . --startup-project ..\WineProject.API\ 
 
